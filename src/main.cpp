@@ -470,6 +470,9 @@ void setup() {
     // initialize the M5Stack object
     M5.begin();
 
+    // serial port
+    Serial.begin(9600);
+
     // dac test
     // if (gpio_test_flg)
     // {
